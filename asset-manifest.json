@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/yerba-mate-rating/static/css/main.68fef513.css",
-    "main.js": "/yerba-mate-rating/static/js/main.6252bf0c.js",
-    "index.html": "/yerba-mate-rating/index.html",
-    "main.68fef513.css.map": "/yerba-mate-rating/static/css/main.68fef513.css.map",
-    "main.6252bf0c.js.map": "/yerba-mate-rating/static/js/main.6252bf0c.js.map"
+    "main.css": "/reactjs-chat-recruitment-task/static/css/main.68fef513.css",
+    "main.js": "/reactjs-chat-recruitment-task/static/js/main.6252bf0c.js",
+    "index.html": "/reactjs-chat-recruitment-task/index.html",
+    "main.68fef513.css.map": "/reactjs-chat-recruitment-task/static/css/main.68fef513.css.map",
+    "main.6252bf0c.js.map": "/reactjs-chat-recruitment-task/static/js/main.6252bf0c.js.map"
   },
   "entrypoints": [
     "static/css/main.68fef513.css",
