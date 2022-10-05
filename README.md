@@ -15,7 +15,7 @@ Instruction: Write a simple chat using React and css. Iframe is added as a final
 
 
 ### Final thoughts
-Unfortunately I did not have enough time to implement final solution but task was fun and I learned a lot through during the interview.
+Unfortunately I did not have enough time to implement final solution but task was fun and I learned a lot through the interview.
 I felt the need to finish the task :).
 
 Thanks for reading!
