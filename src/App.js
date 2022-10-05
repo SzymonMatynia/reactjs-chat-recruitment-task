@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './style.css';
 import source from './data.js';
-import Iframe from './IFrame.js';
 
 /*
 Instruction: Write a simple chat using React and css. Iframe is added as a final result Points to do:
@@ -75,15 +74,21 @@ export default function App() {
     };
 
     const handleSendMessage = (e) => {
-        if (e.key === 'Enter') {
-            sendMessage(e.target.value, MY_CHAT_ID);
+        if (e.key !== 'Enter') {
+            return;
         }
+
+        const message = e.target.value;
+
+        if (!message) {
+            return;
+        }
+
+        sendMessage(message, MY_CHAT_ID);
     }
 
     const isPreviousMessageOnChatFromSameAuthor = (author, index) => {
         const message = sortedMessages?.[index - 1];
-
-        console.log(message);
 
         if (!message) {
             return false;
@@ -130,9 +135,6 @@ export default function App() {
                 </div>
 
             </div>
-
-
-            <Iframe/>
         </>
     );
 }

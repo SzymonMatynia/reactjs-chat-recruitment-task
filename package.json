@@ -1,5 +1,6 @@
 {
-  "name": "react",
+  "name": "reactjs-chat-recruitment-task",
+  "homepage": "https://eterxoz.github.io/reactjs-chat-recruitment-task",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -10,9 +11,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "react-scripts": "latest"
   },
   "browserslist": {

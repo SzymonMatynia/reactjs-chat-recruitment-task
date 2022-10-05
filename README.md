@@ -1,5 +1,6 @@
 # Simple Chat App - Recruitment task
 
+Project available here: [https://eterxoz.github.io/reactjs-chat-recruitment-task/](https://eterxoz.github.io/reactjs-chat-recruitment-task/)
 
 ### Description
 Instruction: Write a simple chat using React and css. Iframe is added as a final result Points to do:
